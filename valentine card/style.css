@@ -1,0 +1,57 @@
+<html>
+<head>
+<body>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center; /* Aligns vertically */
+    height: 100vh; /* Full height of the viewport */
+}
+
+.box {
+    width: 400px;  
+    height: 300px; 
+    background-color: lightblue;
+align-items:center;
+}
+.box{
+border:2px solid #fdf0d5;
+border-radius:20px;
+card-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+padding:30px;
+width:300px;
+align-items:center;
+}
+
+.box-description{
+font-size:15px;
+margin: 10px 0;
+}
+
+.box-button{
+color:violet;
+padding:10px 20px;
+border-radius:10px;
+cursor:pointer;
+transition: background-color #8d99ae;
+width:100px;
+height:50px;
+}
+
+.box-button:hover{
+background-color:pink;
+}
+</head>
+</body>
+</html>
+
+

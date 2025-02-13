@@ -1,0 +1,50 @@
+<html>
+<head>
+<body>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    background-color: fdf0d5;
+    border: 2px solid #ffafcc; /* Green Border */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 500px;
+length:50px;
+    text-align: center;
+}
+
+.box-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.box-description {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.box-button {
+    background-color: #8d99ae; /* Green Background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.box-button:hover {
+    background-color: #8d99ae; /* Darker Green */
+}
+</head>
+</body>
+</html>
